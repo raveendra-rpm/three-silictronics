@@ -280,16 +280,31 @@ nav {
 
 /* Announcement Banner */
 .announcement-banner {
-    background: url('../images/banner_bg.png') center/cover no-repeat;
     margin-top: 100px;
     height: 90vh;
+    position: relative;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
     color: var(--white);
-    padding-top: 0;
+}
+
+.announcement-banner-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    z-index: 0;
+}
+
+.announcement-banner-content {
+    position: relative;
+    z-index: 1;
 }
 
 .announcement-banner h2 {
