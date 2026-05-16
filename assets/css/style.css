@@ -28,6 +28,8 @@ body {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 /* Header */
@@ -354,16 +356,19 @@ nav {
     position: absolute;
     pointer-events: none;
     z-index: 0;
+    overflow: hidden;
 }
 
 .left-art-img {
     left: 0;
     bottom: 0;
+    max-width: 12vw;
 }
 
 .right-art-img {
     top: 0;
     right: 0;
+    max-width: 12vw;
 }
 
 .left-art-img img,
