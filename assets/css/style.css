@@ -26,6 +26,10 @@ body {
     overflow-x: hidden;
 }
 
+button, input, textarea, select {
+    font-family: var(--font-family);
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -651,15 +655,11 @@ nav {
 
 .capabilities-hero {
     background:
-        linear-gradient(135deg, rgba(77, 184, 255, 0.12), rgba(208, 2, 27, 0.08)),
-        var(--white);
+        linear-gradient(135deg, rgba(245, 248, 255, 0.55), rgba(255, 245, 245, 0.55)),
+        url('../images/banner_bg.png') center/cover no-repeat;
     border-bottom: 1px solid #e5eaf0;
     padding: 4.4rem 0 3rem;
     text-align: center;
-}
-
-.capabilities-hero .section-kicker {
-    color: var(--secondary-color);
 }
 
 .capabilities-hero h1 {
@@ -758,16 +758,14 @@ nav {
 
 .contact-hero {
     background:
-        linear-gradient(135deg, rgba(77, 184, 255, 0.12), rgba(208, 2, 27, 0.08)),
-        var(--white);
+        linear-gradient(135deg, rgba(245, 248, 255, 0.55), rgba(255, 245, 245, 0.55)),
+        url('../images/banner_bg.png') center/cover no-repeat;
     border-bottom: 1px solid #e5eaf0;
     padding: 4.4rem 0 3rem;
     text-align: center;
 }
 
-.contact-hero .section-kicker {
-    color: var(--secondary-color);
-}
+/* removed color override for contact-hero section-kicker to keep default green */
 
 .contact-hero h1 {
     color: #10232f;
@@ -909,15 +907,11 @@ nav {
 
 .about-page-hero {
     background:
-        linear-gradient(135deg, rgba(77, 184, 255, 0.12), rgba(208, 2, 27, 0.08)),
-        var(--white);
+        linear-gradient(135deg, rgba(245, 248, 255, 0.55), rgba(255, 245, 245, 0.55)),
+        url('../images/banner_bg.png') center/cover no-repeat;
     border-bottom: 1px solid #e5eaf0;
     padding: 4.4rem 0 3rem;
     text-align: center;
-}
-
-.about-page-hero .section-kicker {
-    color: var(--secondary-color);
 }
 
 .about-page-hero h1 {
@@ -1011,15 +1005,21 @@ nav {
 
 .products-page-hero {
     background:
-        linear-gradient(135deg, rgba(77, 184, 255, 0.12), rgba(208, 2, 27, 0.08)),
-        var(--white);
+        linear-gradient(135deg, rgba(245, 248, 255, 0.55), rgba(255, 245, 245, 0.55)),
+        url('../images/banner_bg.png') center/cover no-repeat;
     border-bottom: 1px solid #e5eaf0;
     padding: 4.4rem 0 3rem;
     text-align: center;
 }
 
+.capabilities-hero .section-kicker,
+.contact-hero .section-kicker,
+.about-page-hero .section-kicker,
 .products-page-hero .section-kicker {
     color: var(--secondary-color);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    font-weight: 700;
 }
 
 .products-page-hero h1 {
@@ -1146,10 +1146,14 @@ nav {
     border: 1px solid #e6ebf1;
     border-radius: 8px;
     box-shadow: 0 18px 42px rgba(16, 35, 47, 0.08);
-    margin: 2rem auto 0;
+    margin: 5rem auto 0;
     max-width: 1180px;
     padding: 2rem;
     position: relative;
+}
+
+.products-page .product-card-copy {
+    background: #e4e7eb;
 }
 
 .products-support-card::before {
