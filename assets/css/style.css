@@ -282,7 +282,7 @@ nav {
     border-radius: 20px;
     background:
         linear-gradient(135deg, rgba(18, 117, 108, 0.2), rgba(0, 0, 0, 0.05)),
-        url('../images/about_us_img.jpg') center/cover no-repeat;
+        url('../images/lazer_drill.jpg') center/cover no-repeat;
 }
 
 
@@ -625,28 +625,70 @@ nav {
 .visual-machine {
     background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.34), rgba(0, 0, 0, 0.08)),
-        url('../images/card_one.jpg') center / cover no-repeat;
-}
-
-.visual-microscope {
-    background:
-        linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(17, 0, 60, 0.14)),
-        url('../images/card_two.jpg') center / cover no-repeat;
+        url('../images/products/ball_grid_array.jpg') center / cover no-repeat;
 }
 
 .visual-quality {
     background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(17, 0, 60, 0.14)),
+        url('../images/products/chip_scale_package.jpg') center / cover no-repeat;
+}
+
+.visual-microscope {
+    background:
         linear-gradient(135deg, rgba(0, 0, 0, 0.24), rgba(208, 2, 59, 0.2)),
-        url('../images/card_three.jpg') center / cover no-repeat;
+        url('../images/products/card_four.jpg') center / cover no-repeat;
 }
 
 .visual-cleanroom {
     background:
         linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
-        url('../images/card_four.jpg') center / cover no-repeat;
+        url('../images/products/high_density_interposer.jpg') center / cover no-repeat;
 }
 
-.slider-arrow {
+.visual-build-ups {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/build_up_substrate.jpg') center / cover no-repeat;
+}
+
+.visual-high-speed-digital {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/high_speed_digital.jpg') center / cover no-repeat;
+}
+
+.high_frequency_rf {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/high_frequency_rf.jpg') center / cover no-repeat;
+}
+
+.controlled_impedance {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/controlled_impedance.jpg') center / cover no-repeat;
+}
+
+.thermal_vias {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/thermal_vias.jpg') center / cover no-repeat;
+}
+
+.sip_img {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/sip.jpg') center / cover no-repeat;
+}
+
+.multi_chip_module {
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.18), rgba(0, 0, 0, 0.12)),
+        url('../images/products/multi_chip_module.jpg') center / cover no-repeat;
+}
+
+.visual-high-speed-digital .slider-arrow {
     align-items: center;
     background: var(--white);
     border: 0;
@@ -1955,7 +1997,8 @@ footer {
         white-space: normal;
     }
 
-    .about-mission-visual, .mission-photo {
+    .about-mission-visual,
+    .mission-photo {
         min-height: 280px;
     }
 }
@@ -2114,7 +2157,7 @@ footer {
     .announcement-banner p {
         font-size: 1rem;
     }
-    
+
     .banner-logos img {
         height: 45px;
     }
